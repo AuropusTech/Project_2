@@ -34,8 +34,8 @@ class HomeController extends Controller
 
         $currentUser = Auth::user()->id;
 
-        $CountReqFormbuys = ReqFormbuy::whereIn('UserID',[$currentUser])->sortable()->orderBy('id', 'DESC')->paginate(10)->count();
-        $CountReqFormhires = ReqFormhire::whereIn('UserID',[$currentUser])->sortable()->orderBy('id', 'DESC')->paginate(10)->count();
+        $CountReqFormbuys = ReqFormbuy::whereIn('UserID',[$currentUser])->count();
+        $CountReqFormhires = ReqFormhire::whereIn('UserID',[$currentUser])->count();
 
 
         $infoAll = info::sortable()->orderBy('id', 'DESC')->paginate(5);
