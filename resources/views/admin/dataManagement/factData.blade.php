@@ -225,7 +225,7 @@
                                             <tr>
                                                 <td>{{$showFacts->id}}</td>
                                                 <td>{{$showFacts->factName}}</td>
-                                                <td><a style="color: blue" href="factDataEdit/{{$showFacts['id']}}">แก้ไขข้อมูล</a>&nbsp;&nbsp;<a style="color: red" href="{{url('factDataDelete/'.$showFacts->fid)}}" onclick="myFunction()">ลบ</a></td>
+                                                <td><a style="color: blue" href="factDataEdit/{{$showFacts['id']}}">แก้ไขข้อมูล</a>&nbsp;&nbsp;<a style="color: red" href="{{url('factDataDelete/'.$showFacts->id)}}" onclick="myFunction()">ลบ</a></td>
                                             </tr> 
                                             @endforeach
                                             @endif
