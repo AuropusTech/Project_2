@@ -514,8 +514,8 @@ class FormController extends Controller
         $currentUser = Auth::user()->id;
 
 
-        $buyFormJoinStatuses = ReqFormbuy::join('statuses', 'statuses.id', '=', 'req_formbuys.statusId')->whereIn('UserId',[$currentUser])->sortable()->paginate(10);
-        $hireFormJoinStatuses = Status::join('req_formhires', 'req_formhires.statusId', '=', 'statuses.id')->whereIn('UserId',[$currentUser])->sortable()->paginate(10);
+        $buyFormJoinStatuses = ReqFormbuy::join('statuses', 'statuses.id', '=', 'req_formbuys.StatusId')->whereIn('UserId',[$currentUser])->sortable()->paginate(10);
+        $hireFormJoinStatuses = Status::join('req_formhires', 'req_formhires.StatusId', '=', 'statuses.id')->whereIn('UserId',[$currentUser])->sortable()->paginate(10);
 
         //$buyFormJoinStatuses = ReqFormbuy::join('statuses', 'statuses.id', '=', 'req_formbuys.StatusId')->join('projects', 'projects.id', '=', 'req_formbuys.ProjectId')->whereIn('UserID',[$currentUser])->sortable()->paginate(10);
         
