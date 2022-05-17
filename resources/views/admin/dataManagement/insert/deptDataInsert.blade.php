@@ -61,21 +61,21 @@
 
                     <li class="label">จัดการผู้ใช้</li>
 
-                    <li><a class="sidebar-sub-toggle"><i class="ti-user"></i>สำหรับเจ้าหน้าที่พัสดุคณะ<span
+                    <li><a class="sidebar-sub-toggle"><i class="ti-user"></i>สำหรับเจ้าหน้าที่พัสดุ<span
                         class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
-                            <li><a href="admin-all-profile">ข้อมูลหลักเจ้าหน้าที่พัสดุคณะ</a></li>
-                            <li><a href="admin-all-profile-edit">แก้ไขข้อมูลเจ้าหน้าที่พัสดุคณะ</a></li>
-                            <li><a href="admin-add-new">เพิ่มข้อมูลเจ้าหน้าที่พัสดุคณะ</a></li>
+                            <li><a href="admin-all-profile">ข้อมูลหลักเจ้าหน้าที่พัสดุ</a></li>
+                            <li><a href="admin-all-profile-edit">แก้ไขข้อมูลเจ้าหน้าที่พัสดุ</a></li>
+                            <li><a href="admin-add-new">เพิ่มข้อมูลเจ้าหน้าที่พัสดุ</a></li>
                         </ul>
                     </li>
 
-                    <li><a class="sidebar-sub-toggle"><i class="ti-user"></i>สำหรับเจ้าหน้าที่พัสดุสาขา<span
+                    <li><a class="sidebar-sub-toggle"><i class="ti-user"></i>สำหรับบุคลากร<span
                         class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
-                            <li><a href="staff-all-profile">ข้อมูลหลักเจ้าหน้าที่พัสดุสาขา</a></li>
-                            <li><a href="staff-all-profile-edit">แก้ไขข้อมูลเจ้าหน้าที่พัสดุสาขา</a></li>
-                            <li><a href="staff-add-new">เพิ่มข้อมูลเจ้าหน้าที่พัสดุสาขา</a></li>
+                            <li><a href="staff-all-profile">ข้อมูลหลักบุคลากร</a></li>
+                            <li><a href="staff-all-profile-edit">แก้ไขข้อมูลบุคลากร</a></li>
+                            <li><a href="staff-add-new">เพิ่มข้อมูลบุคลากร</a></li>
                         </ul>
                     </li>
 

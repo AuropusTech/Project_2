@@ -17,6 +17,7 @@ class HeadmanSeeder extends Seeder
     {
         $Headman = [
 
+
             [
                 'headmenArticleName'=>'นาง',
                 'headmenFname'=>'จุฬารักษ์',
