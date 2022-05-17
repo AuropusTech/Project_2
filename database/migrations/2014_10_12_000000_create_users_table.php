@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('fname',50);
             $table->string('lname',50);
 
-            $table->string('position',30);
+            $table->string('position',100);
 
             $table->string('sysRole',20);
             $table->string('email',50);
