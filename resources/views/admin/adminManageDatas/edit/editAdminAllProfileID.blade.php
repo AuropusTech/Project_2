@@ -211,7 +211,7 @@
 
                         <div class="card">
                             <div class="topics">
-                                <center><h2 style="margin-bottom: 30px;">แก้ไขข้อมูลเจ้าหน้าที่</h2></center>                                 
+                                <center><h2 style="margin-bottom: 30px;">แก้ไขข้อมูลเจ้าหน้าที่พัสดุ</h2></center>                                 
                             </div>
 
                             <div class="card-body">

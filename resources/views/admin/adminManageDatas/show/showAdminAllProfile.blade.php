@@ -207,7 +207,7 @@
                 <div class="row" style="margin-bottom: 20px;">
                     <div class="col-lg-12">
                         <div class="card">
-                            <h3 style="margin-bottom: 20px;"><center>ข้อมูลหลักเจ้าหน้าที่พัสดุคณะ</center></h3>
+                            <h3 style="margin-bottom: 20px;"><center>ข้อมูลหลักเจ้าหน้าที่พัสดุ</center></h3>
                             <div class="bootstrap-data-table-panel">
                                 <div class="table-responsive">
                                     <table id="bootstrap-data-table-list" class="table table-striped table-bordered">

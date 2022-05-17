@@ -211,7 +211,7 @@
             
                                         <div class="card">
                                             <div class="topics">
-                                                <center><h2 style="margin-bottom: 30px;">เพิ่มข้อมูลเจ้าหน้าที่พัสดุสาขา</h2></center>                                 
+                                                <center><h2 style="margin-bottom: 30px;">เพิ่มข้อมูลบุคลากร</h2></center>                                 
                                             </div>
             
                                             <div class="card-body">
